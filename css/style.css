@@ -30,3 +30,16 @@
 .nav__link:hover {
   color: red;
 }
+
+/* MAIN COMPONENT */
+
+.main {
+  background: lightpink;
+  padding: 20px;
+}
+
+.avatar_image {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
