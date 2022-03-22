@@ -9,6 +9,9 @@
   background: lightblue;
   height: 75px;
   box-shadow: 0 0 20px 2px black;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .header__h1 {
@@ -34,6 +37,7 @@
 /* MAIN COMPONENT */
 
 .main {
+  margin-top: 75px;
   background: lightpink;
   padding: 20px;
 }
