@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* HEADER COMPONENT */
 .header {
   background: lightblue;
   height: 75px;
@@ -15,7 +16,9 @@
   text-align: center;
 }
 
-.header__nav {
+/* NAV COMPONENT*/
+
+.nav__horizontal {
   text-align: center;
 }
 
