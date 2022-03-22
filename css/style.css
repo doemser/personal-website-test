@@ -3,3 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.header {
+  background: lightblue;
+  height: 75px;
+  box-shadow: 0 0 20px 2px black;
+}
+
+.header__h1 {
+  color: darkblue;
+  text-align: center;
+}
+
+.header__nav {
+  text-align: center;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: darkblue;
+}
+
+.nav__link:hover {
+  color: red;
+}
