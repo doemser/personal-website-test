@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER COMPONENT */
+.header {
+  background: lightblue;
+  height: 75px;
+  box-shadow: 0 0 20px 2px black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header__h1 {
+  color: darkblue;
+  text-align: center;
+}
+
+/* NAV COMPONENT*/
+
+.nav__horizontal {
+  text-align: center;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: darkblue;
+}
+
+.nav__link:hover {
+  color: red;
+}
+
+/* MAIN COMPONENT */
+
+.main {
+  margin-top: 75px;
+  margin-bottom: 50px;
+  background: lightpink;
+  padding: 20px;
+}
+
+/* AVATAR COMPONENT */
+
+.avatar_image {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+
+/* FOOTER COMPONENT */
+
+.footer {
+  height: 50px;
+  background: lightsalmon;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
